@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Private keys
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite*
+
+# Alembic
+versions/*.py
+!versions/__pycache__/
